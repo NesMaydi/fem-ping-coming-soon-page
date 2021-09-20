@@ -3,26 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <script src="https://kit.fontawesome.com/882700d9bb.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
-  We are launching soon!
+  <main id="main-page-content">
 
-  Subscribe and get notified
+<div id="first-section">
+  <div id="logo-section">
+    <img src="images/logo.svg" alt="ping-logo">
+  </div>
 
+  <div id="title-intro">
+    <h1 id="launching-title">
+      We are launching <span id="soon-style">soon!</span>
+    </h1>
+    <p id="intro-paragraph"> Subscribe and get notified</p>
+
+<form id="form-email"action="#" novalidate autocomplete="off">
+<input type="text" id="email-input" placeholder="Your email address…">
+<p id="invalid-email" class="no-show-error"> Please provide a valid email address
+</b></p>
+</form>
+<button id="notify-btn">
   Notify Me
+</button>
+</form>
+</div>
+</div>
 
-  &copy; Copyright Ping. All rights reserved.
+<div id="image-site">
+  <img id="site" src="images/illustration-dashboard.png" alt="">
+</div>
+
+
+<div id="logo-social">
+  <ul id="logos">
+    <li class="icons" id="facebook"><i class="fab fa-facebook-f"></i></i>
+    </li>
+    <li class="icons"><i class="fab fa-twitter"></i></li>
+    <li class="icons"><i class="fab fa-instagram"></i></li>
+  </ul>
+  <p id="copyright">
+    &copy; Copyright Ping. All rights reserved.
+  </p>
+</div>
+  </main>
+ 
+
+ 
+
+
 
   <footer>
     <p class="attribution">
@@ -30,5 +69,7 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+  <script src="email-validation.js"></script>
 </body>
 </html>

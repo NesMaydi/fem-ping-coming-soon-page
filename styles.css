@@ -1,0 +1,188 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+#main-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#logo-section > img {
+  margin: 81px auto 32px auto;
+  width: 56px;
+  height: 24px;
+}
+
+#title-intro {
+  width: 302px;
+  height: 240px;
+}
+
+#launching-title {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #969696;
+  margin-bottom: 15px;
+}
+
+#soon-style {
+  font-weight: 700;
+  color: #15202a;
+}
+
+#intro-paragraph {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 32px;
+
+  color: #15202a;
+}
+
+#site {
+  width: 320px;
+  height: 192px;
+  margin-bottom: 120px;
+}
+
+#logos {
+  list-style-type: none;
+  display: flex;
+}
+
+#email-input {
+  outline: none;
+  height: 40px;
+  width: 281px;
+  border-radius: 28px;
+  background: #ffffff;
+  border: 1px solid #c2d3ff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.0001);
+  border-radius: 28px;
+  padding-left: 32px;
+  color: #c2d3ff;
+  margin-bottom: 10px;
+}
+
+#email-input::placeholder {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #b8c7ed;
+}
+
+#email-input:focus {
+  padding-left: 32px;
+}
+
+
+
+#invalid-email {
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.125px;
+  font-style: italic;
+  color: #ff5466;
+  top: -10px;
+  position: relative;
+}
+
+.no-show-error {
+  display: none;
+}
+
+.show-error {
+  display: initial;
+ 
+}
+
+.border-error{
+    
+}
+
+#notify-btn {
+  height: 40px;
+  width: 282px;
+  background: #4c7bf3;
+  box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+#notify-btn:hover {
+  transform: scale(1.05);
+}
+
+#notify-btn:active {
+  transform: translateY(1.05px);
+}
+
+#logo-social {
+  width: 170px;
+  height: 70px;
+}
+
+#logos {
+  width: 120px;
+  height: 31px;
+  display: flex;
+  margin: auto;
+}
+
+.icons {
+  margin-right: 11.71px;
+  width: 32px;
+  height: 31px;
+  border: 0.918357px solid rgba(76, 123, 243, 0.146498);
+  border-radius: 50%;
+  line-height: 31px;
+  color: #4c7bf3;
+  text-align: center;
+  vertical-align: bottom;
+  
+
+}
+
+.icons:hover{
+    color: #fff;
+    background: #4c7bf3;
+    transform: scale(1.05);
+}
+
+.icons:last-of-type {
+  margin-right: 0;
+}
+
+#copyright {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 27px;
+  color: #969696;
+}
+
+.attribution {
+  margin-top: 16px;
+  font-size: 12px;
+  text-align: center;
+}
