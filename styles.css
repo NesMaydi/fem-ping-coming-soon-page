@@ -89,8 +89,6 @@ body {
   padding-left: 32px;
 }
 
-
-
 #invalid-email {
   font-size: 10px;
   line-height: 20px;
@@ -107,12 +105,8 @@ body {
 
 .show-error {
   display: initial;
- 
 }
 
-.border-error{
-    
-}
 
 #notify-btn {
   height: 40px;
@@ -159,14 +153,12 @@ body {
   color: #4c7bf3;
   text-align: center;
   vertical-align: bottom;
-  
-
 }
 
-.icons:hover{
-    color: #fff;
-    background: #4c7bf3;
-    transform: scale(1.05);
+.icons:hover {
+  color: #fff;
+  background: #4c7bf3;
+  transform: scale(1.05);
 }
 
 .icons:last-of-type {
@@ -185,4 +177,85 @@ body {
   margin-top: 16px;
   font-size: 12px;
   text-align: center;
+}
+ 
+@media screen and (min-width: 1440px){
+
+#first-section{
+    width: 712px;
+    margin: auto;
+    align-content: center;
+}
+#logo-section > img{
+height: 39px;
+width: 90px;
+}
+
+#title-intro {
+    width: 712px;
+   
+  }
+
+
+
+#launching-title{
+    align-self: flex-start;
+    height: 60px;
+width: 712px;
+margin: auto;
+font-weight: 300;
+font-size: 48px;
+line-height: 60px;
+}
+
+#intro-paragraph{
+    height: 24px;
+width: 243px;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin: 16px auto 40px auto;
+
+}
+
+#form-email{
+    width: 637px;
+height: 56px;
+display: flex;
+margin: auto;
+}
+
+#email-input{
+    width: 421px;
+height: 56px;
+margin-right: 16px;
+}
+
+.desktop-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 86px;
+}
+#notify-btn{
+    width: 200px;
+height: 56px;
+}
+
+#invalid-email{
+    font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.15px;
+text-align: left;
+color: #FF5466;
+position: relative;
+left: 20px;
+}
+
+#site{
+    width: 640px;
+height: 383px;
+margin: 94px auto 72px auto;
+}
 }
